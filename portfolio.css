@@ -1,0 +1,224 @@
+.hero-header {
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+.hero-header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8));
+    z-index: 1; /* Ensure it is behind the text */
+}
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+.hero-header .position-relative {
+    position: relative;
+    z-index: 2; /* Bring the text above the overlay */
+}
+.about h1{
+        text-align: center;
+            font-size:30px; font-weight:300; color:#222; letter-spacing:1px;
+            text-transform: uppercase;
+            display: grid;
+            grid-template-columns: 1fr max-content 1fr;
+            grid-template-rows: 27px 0;
+            grid-gap: 20px;
+            align-items: center;
+            color: antiquewhite;
+        }
+        
+        .about h1:after,.about h1:before {
+            content: " ";
+            display: block;
+            border-bottom: 1px solid #c50000;
+            border-top: 1px solid #c50000;
+            height: 5px;
+          background-color:#f8f8f8;
+        }
+.projects h1{
+        text-align: center;
+            font-size:30px; font-weight:300; color:#222; letter-spacing:1px;
+            text-transform: uppercase;
+            color: antiquewhite;
+            display: grid;
+            grid-template-columns: 1fr max-content 1fr;
+            grid-template-rows: 27px 0;
+            grid-gap: 20px;
+            align-items: center;
+        }
+        
+        .projects h1:after,.projects h1:before {
+            content: " ";
+            display: block;
+            border-bottom: 1px solid #c50000;
+            border-top: 1px solid #c50000;
+            height: 5px;
+          background-color:#f8f8f8;
+        }
+.footer h1{
+        text-align: center;
+            font-size:30px; font-weight:300; color:#222; letter-spacing:1px;
+            text-transform: uppercase;
+            display: grid;
+            grid-template-columns: 1fr max-content 1fr;
+            grid-template-rows: 27px 0;
+            grid-gap: 20px;
+            align-items: center;
+            color: #f8f8f8;
+            color: antiquewhite;
+        }
+        
+        .footer h1:after,.footer h1:before {
+            content: " ";
+            display: block;
+            border-bottom: 1px solid #c50000;
+            border-top: 1px solid #c50000;
+            height: 5px;
+          background-color:#f8f8f8;
+        }
+.skills h1{
+        text-align: center;
+            font-size:30px; font-weight:300; color:#222; letter-spacing:1px;
+            text-transform: uppercase;
+            color: antiquewhite;
+            display: grid;
+            grid-template-columns: 1fr max-content 1fr;
+            grid-template-rows: 27px 0;
+            grid-gap: 20px;
+            align-items: center;
+        }
+        
+        .skills h1:after,.skills h1:before {
+            content: " ";
+            display: block;
+            border-bottom: 1px solid #c50000;
+            border-top: 1px solid #c50000;
+            height: 5px;
+          background-color:#f8f8f8;
+        }
+        
+        
+
+
+.hero-header h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #ffcf40; /* A warm highlight color */
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6); /* Add subtle shadow for better readability */
+}
+
+.hero-header h3 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #db8c17; /* Light gray for contrast */
+}
+
+.hero-header .icon-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ffcf40;
+    color: #204366;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.hero-header .icon-link:hover {
+    background: #ffc107; /* Slightly lighter shade */
+    color: #000;
+    transform: translateY(-2px);
+}
+
+.hero-header .lead {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+#about {
+    padding: 50px 0; /* Add some padding for spacing */
+}
+
+.container {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    text-align: left; /* Align text to the left */
+}
+
+.linkedin {
+    margin-right: 20px; /* Add space between the image and the text */
+    border-radius: 50%;
+    height: 200px;
+    width: auto;
+}
+
+#about {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.about-box {
+    background-color: rgba(255, 255, 255, 0.9); /* White with slight transparency */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    border-radius: 15px; /* Rounded corners */
+    display: flex;
+    align-items: center;
+    max-width: 600px; /* Limit the width */
+    text-align: center; /* Center align text */
+}
+
+.linkedin {
+    border: 2px solid #6a11cb; /* Add a border to the image */
+    padding: 4px;
+}
+
+.container p {
+    max-width: 600px; /* Limit the width of the paragraph */
+    font-size: 1rem; /* Adjust font size as needed */
+    /* color: #0e75db; Set a color for the paragraph text */
+    font-weight: 900;
+}
+.about-box {
+    transition: transform 0.3s ease; /* Smooth transition for normal state */
+}
+
+.about-box:hover {
+    transform: scale(1.05); /* Scale the card to 105% of its original size */
+}
+body {
+   background-image: url(bg.jpg);
+    color: #0d0d0d; /* Neon Aqua Text for contrast */
+    font-family: "Roboto", sans-serif; /* Modern font suggestion */
+}
+
+#footer a {
+    color: #599ee9; /* Change to your desired color */
+    text-decoration: none; /* Optional: remove underline */
+}
+
+#footer a:hover {
+    color: #ffcf40; /* Change to a different color on hover */
+    text-decoration: underline; /* Optional: add underline on hover */
+}
+.card {
+    transition: transform 0.3s ease; /* Smooth transition for normal state */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Scale the card to 105% of its original size */
+}
+
