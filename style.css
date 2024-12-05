@@ -3,6 +3,17 @@
     color: white;
     text-align: center;
 }
+.classy-btn {
+  border: 2px solid var(--bs-secondary);
+  color: var(--bs-secondary);
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.classy-btn:hover {
+  background-color: var(--bs-secondary);
+  color: white;
+}
 
 .hero-header::before {
     content: '';
@@ -114,7 +125,7 @@
     font-size: 4rem;
     font-weight: bold;
     color: #ffcf40; /* A warm highlight color */
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6); /* Add subtle shadow for better readability */
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
 }
 
 .hero-header h3 {
@@ -152,14 +163,13 @@
 }
 
 .container {
-    display: flex; /* Use flexbox for layout */
-    align-items: center; /* Center items vertically */
-    justify-content: center; /* Center items horizontally */
-    text-align: left; /* Align text to the left */
-}
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    text-align: left; 
 
 .linkedin {
-    margin-right: 20px; /* Add space between the image and the text */
+    margin-right: 20px; 
     border-radius: 50%;
     height: 200px;
     width: auto;
@@ -172,13 +182,13 @@
 }
 
 .about-box {
-    background-color: rgba(255, 255, 255, 0.9); /* White with slight transparency */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
-    border-radius: 15px; /* Rounded corners */
+    background-color: rgba(255, 255, 255, 0.9); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
     display: flex;
     align-items: center;
-    max-width: 600px; /* Limit the width */
-    text-align: center; /* Center align text */
+    max-width: 600px; 
+    text-align: center; 
 }
 
 .linkedin {
@@ -187,38 +197,38 @@
 }
 
 .container p {
-    max-width: 600px; /* Limit the width of the paragraph */
-    font-size: 1rem; /* Adjust font size as needed */
-    /* color: #0e75db; Set a color for the paragraph text */
+    max-width: 600px; 
+    font-size: 1rem; 
+    /* color: #0e75db; 
     font-weight: 900;
 }
 .about-box {
-    transition: transform 0.3s ease; /* Smooth transition for normal state */
+    transition: transform 0.3s ease; 
 }
 
 .about-box:hover {
-    transform: scale(1.05); /* Scale the card to 105% of its original size */
+    transform: scale(1.05); 
 }
 body {
    background-image: url(bg.jpg);
-    color: #0d0d0d; /* Neon Aqua Text for contrast */
-    font-family: "Roboto", sans-serif; /* Modern font suggestion */
+    color: #0d0d0d; 
+    font-family: "Roboto", sans-serif; 
 }
 
 #footer a {
-    color: #599ee9; /* Change to your desired color */
-    text-decoration: none; /* Optional: remove underline */
+    color: #599ee9; 
+    text-decoration: none; 
 }
 
 #footer a:hover {
-    color: #ffcf40; /* Change to a different color on hover */
-    text-decoration: underline; /* Optional: add underline on hover */
+    color: #ffcf40; 
+    text-decoration: underline; 
 }
 .card {
-    transition: transform 0.3s ease; /* Smooth transition for normal state */
+    transition: transform 0.3s ease; 
 }
 
 .card:hover {
-    transform: scale(1.05); /* Scale the card to 105% of its original size */
+    transform: scale(1.05); 
 }
 
