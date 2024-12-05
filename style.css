@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 .hero-header {
     position: relative;
     color: white;
@@ -146,6 +149,15 @@
     transition: all 0.3s ease;
 }
 
+.icon-link {
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.icon-link:hover {
+    background: #ffc107; /* Slightly lighter shade */
+    color: #000;
+    transform: translateY(-3px); /* Increased lift on hover */
+}
 .hero-header .icon-link:hover {
     background: #ffc107; /* Slightly lighter shade */
     color: #000;
@@ -225,10 +237,11 @@ body {
     text-decoration: underline; 
 }
 .card {
-    transition: transform 0.3s ease; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card:hover {
-    transform: scale(1.05); 
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
 
