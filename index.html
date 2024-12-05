@@ -102,6 +102,12 @@
         <link href="style.css" rel="stylesheet">
       </head>
       <body>
+        <div class="wave-container">
+          <div class="wave wave1"></div>
+          <div class="wave wave2"></div>
+          <div class="wave wave3"></div>
+      </div>
+      
         <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
           <symbol id="check2" viewBox="0 0 16 16">
             <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"></path>
@@ -192,8 +198,7 @@
     
     <main>
         <div class="hero-header">
-            <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary" 
-                 style="background-image: url('portfolio.jpeg'); background-size: cover; background-position: center; height: 100vh;">
+            <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary">
                 <div class="col-md-8 mx-auto my-auto">
                     <h1 class="display-3 fw-bold">Sakshya Sinha</h1>
                     <h3 class="mb-4">Web Developer | Aspiring Full Stack Engineer</h3>
@@ -222,96 +227,74 @@
 </section>
 
 
-<!---project section-->
-<section id="projects">
-    <!-- Project Section -->
-    <div class="projects">
-        <h1 class="mb-4">Projects</h1>
-        </div>
-    <div class="container">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-            <div class="col">
-                <div class="card shadow-sm text-center">
-                   <img src="clothsipping.jpg" alt="">
-                        <title>Cloth Brand</title>
-                        <rect width="100%" height="100%" fill="#55595c"></rect>
-                    </svg>
-                    <div class="card-body">
-                        <p class="card-text">Clothes shipping website</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-  <a href="https://sakshyasinha.github.io/cloth-brand/" target="_blank" rel="noopener noreferrer" class="btn btn-sm classy-btn">View Project</a>
-  <a href="https://github.com/sakshyasinha/cloth-brand" target="_blank" rel="noopener noreferrer" class="btn btn-sm classy-btn">GitHub</a>
-</div>
 
-                           
-                        </div>
-                    </div>
-                </div>
-            </div>
-           
-          
-            <div class="col">
-                <div class="card shadow-sm text-center">
-                   <img src="weather.jpg" alt="">
-                        <title>Weather App</title>
-                        <rect width="100%" height="100%" fill="#55595c"></rect>
-                    </svg>
-                    <div class="card-body">
-                        <p class="card-text">Weather Application</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                           <div class="btn-group">
-  <a href="https://sakshyasinha.github.io/cloth-brand/" target="_blank" rel="noopener noreferrer" class="btn btn-sm classy-btn">View Project</a>
-  <a href="https://github.com/sakshyasinha/cloth-brand" target="_blank" rel="noopener noreferrer" class="btn btn-sm classy-btn">GitHub</a>
+<section id="projects" class="py-5">
+  <div class="about">
+    <h1 class="mb-4 text-center">Projects</h1>
 </div>
-
-                         
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card shadow-sm text-center">
-                   <img src="cricekt.jpg" alt="">
-                        <title>Cricket Game</title>
-                        <rect width="100%" height="100%" fill="#55595c"></rect>
-                    </svg>
-                    <div class="card-body">
-                        <p class="card-text">Cricket game</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-  <a href="https://sakshyasinha.github.io/cloth-brand/" target="_blank" rel="noopener noreferrer" class="btn btn-sm classy-btn">View Project</a>
-  <a href="https://github.com/sakshyasinha/cloth-brand" target="_blank" rel="noopener noreferrer" class="btn btn-sm classy-btn">GitHub</a>
-</div>
-
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
+  <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+          <!-- Cloth Brand -->
           <div class="col">
-    <div class="card shadow-sm text-center">
-        <img src="todo.jpg" alt="" class="img-fluid mx-auto" style="max-height: 200px;">
-        <div class="card-body">
-            <p class="card-text">To-Do List application</p>
-            <div class="d-flex justify-content-center">
-               <div class="btn-group">
-  <a href="https://sakshyasinha.github.io/cloth-brand/" target="_blank" rel="noopener noreferrer" class="btn btn-sm classy-btn">View Project</a>
-  <a href="https://github.com/sakshyasinha/cloth-brand" target="_blank" rel="noopener noreferrer" class="btn btn-sm classy-btn">GitHub</a>
-</div>
-
-            </div>
-        </div>
-    </div>
-</div>
-
+            <div class="card shadow-sm text-center border border-secondary">
+                  <img src="clothsipping.jpg" alt="Cloth Brand" class="img-fluid mx-auto" style="max-height: 200px;">
+                  <div class="card-body">
+                      <p class="card-text">Clothes shipping website</p>
+                      <div class="d-flex justify-content-center">
+                          <a href="https://sakshyasinha.github.io/cloth-brand/" target="_blank" rel="noopener noreferrer" class="btn custom-btn mx-2">View Project</a>
+                          <a href="https://github.com/sakshyasinha/cloth-brand" target="_blank" rel="noopener noreferrer" class="btn custom-btn mx-2">GitHub</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!-- Cricket App -->
+          <div class="col">
+            <div class="card shadow-sm text-center border border-secondary">
+                  <img src="cricekt.jpg" alt="Cricket Game" class="img-fluid mx-auto" style="max-height: 200px;">
+                  <div class="card-body">
+                      <p class="card-text">Cricket Game</p>
+                      <div class="d-flex justify-content-center">
+                          <a href="https://sakshyasinha.github.io/cricket-game/" target="_blank" rel="noopener noreferrer" class="btn custom-btn mx-2">View Project</a>
+                          <a href="https://github.com/sakshyasinha/cricket-game" target="_blank" rel="noopener noreferrer" class="btn custom-btn mx-2">GitHub</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!-- Weather App -->
+          <div class="col">
+            <div class="card shadow-sm text-center border border-secondary">
+                  <img src="weather.jpg" alt="Weather App" class="img-fluid mx-auto" style="max-height: 200px;">
+                  <div class="card-body">
+                      <p class="card-text">Weather Application</p>
+                      <div class="d-flex justify-content-center">
+                          <a href="https://sakshyasinha.github.io/weather-app/" target="_blank" rel="noopener noreferrer" class="btn custom-btn mx-2">View Project</a>
+                          <a href="https://github.com/sakshyasinha/weather-app" target="_blank" rel="noopener noreferrer" class="btn custom-btn mx-2">GitHub</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!-- To-Do List -->
+          <div class="col">
+            <div class="card shadow-sm text-center border border-secondary">
+                  <img src="todo.jpg" alt="To-Do List" class="img-fluid mx-auto" style="max-height: 200px;">
+                  <div class="card-body">
+                      <p class="card-text">To-Do List application</p>
+                      <div class="d-flex justify-content-center">
+                          <a href="https://sakshyasinha.github.io/To-Do-List/" target="_blank" rel="noopener noreferrer" class="btn custom-btn mx-2">View Project</a>
+                          <a href="https://github.com/sakshyasinha/To-Do-List" target="_blank" rel="noopener noreferrer" class="btn custom-btn mx-2">GitHub</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
 </section>
+
 <section id="skills" class="py-5">
+  <div class="about">
+    <h1 class="mb-4 text-center">MY SKILLS</h1>
+</div>
     <div class="container">
-       
-    <div class="skills">
-        <h1 class="mb-4">My Skills</h1>
-        </div>
         <div class="row">
             <!-- Skill 1 -->
             <div class="col-md-4 mb-4">
@@ -336,7 +319,7 @@
                 <div class="card shadow-sm border-light rounded">
                     <div class="card-body">
                         <h5 class="card-title">Programming Languages</h5>
-                        <p class="card-text">C++, C, Python</p>
+                        <p class="card-text">C, C++, Python</p>
                     </div>
                 </div>
             </div>
@@ -356,7 +339,7 @@
                     <div class="footer">
                     <h1 class="mb-4">About</h1>
                     </div>
-                    <p>
+                    <p style="color: rgb(127, 195, 255);">
                         I'm a passionate Web Developer with a knack for building user-friendly web applications. Let's connect and bring ideas to life!
                     </p>
                 </div>
@@ -379,7 +362,7 @@
           </svg>
                         Connect
                       </div>
-                    <p><i class="fa fa-envelope me-3"></i>Email-<a href="#">sakshyasinha32@gmail.com</a></p>
+                    <p style="color: darkgrey;"><i class="fa fa-envelope me-3"></i>Email-<a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSGMhkXcVJWdlRlCGDkVsgzkPWGMxHQtpkxrCqMGPLGtrNqbWhpXBzWglcQmssBcTMZNcflf">sakshyasinha32@gmail.com</a></p>
                   
                     <div>
                         <button type="button" class="btn btn-primary">
@@ -402,7 +385,7 @@
             </div>
         </div>
         <div class="container text-center mt-4">
-            <p class="mb-0">© 2024 Sakshya Sinha<i class="fa fa-heart text-danger"></i></p>
+            <p class="mb-0" style="color: rgb(192, 184, 74);">© 2024 Sakshya Sinha<i class="fa fa-heart text-danger"></i></p>
         </div>
     </div>
 </section>
