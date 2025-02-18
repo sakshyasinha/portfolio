@@ -1,6 +1,7 @@
 html {
     scroll-behavior: smooth;
 }
+
 .hero-header {
     position: relative;
     color: white;
@@ -13,122 +14,136 @@ html {
     object-fit: cover;
 }
 
-
 .hero-header .position-relative {
     position: relative;
     z-index: 2; /* Bring the text above the overlay */
 }
-.about h1{
-        text-align: center;
-            font-size:30px; font-weight:300; color:#222; letter-spacing:1px;
-            text-transform: uppercase;
-            display: grid;
-            grid-template-columns: 1fr max-content 1fr;
-            grid-template-rows: 27px 0;
-            grid-gap: 20px;
-            align-items: center;
-            color: antiquewhite;
-        }
-        .bounce {
-            animation: bounce 1s infinite;
-        }
-        
-        @keyframes bounce {
-            0%, 20%, 50%, 80%, 100% {
-                transform: translateY(0);
-            }
-            40% {
-                transform: translateY(-10px);
-            }
-            60% {
-                transform: translateY(-5px);
-            }
-        }
-        
-        .about h1:after,.about h1:before {
-            content: " ";
-            display: block;
-            border-bottom: 1px solid #c50000;
-            border-top: 1px solid #c50000;
-            height: 5px;
-          background-color:#f8f8f8;
-        }
-        .slide-in {
-            opacity: 0;
-            transform: translateX(-100%);
-            animation: slideIn 0.5s forwards;
-        }
-        
-        @keyframes slideIn {
-            to {
-                opacity: 1;
-                transform: translateX(0);
-            }
-        }
-.projects h1{
-        text-align: center;
-            font-size:30px; font-weight:300; color:#222; letter-spacing:1px;
-            text-transform: uppercase;
-            color: antiquewhite;
-            display: grid;
-            grid-template-columns: 1fr max-content 1fr;
-            grid-template-rows: 27px 0;
-            grid-gap: 20px;
-            align-items: center;
-        }
-        
-        .projects h1:after,.projects h1:before {
-            content: " ";
-            display: block;
-            border-bottom: 1px solid #c50000;
-            border-top: 1px solid #c50000;
-            height: 5px;
-          background-color:#f8f8f8;
-        }
-.footer h1{
-        text-align: center;
-            font-size:30px; font-weight:300; color:#222; letter-spacing:1px;
-            text-transform: uppercase;
-            display: grid;
-            grid-template-columns: 1fr max-content 1fr;
-            grid-template-rows: 27px 0;
-            grid-gap: 20px;
-            align-items: center;
-            color: #f8f8f8;
-            color: antiquewhite;
-        }
-        
-        .footer h1:after,.footer h1:before {
-            content: " ";
-            display: block;
-            border-bottom: 1px solid #c50000;
-            border-top: 1px solid #c50000;
-            height: 5px;
-          background-color:#f8f8f8;
-        }
-.skills h1{
-        text-align: center;
-            font-size:30px; font-weight:300; color:#222; letter-spacing:1px;
-            text-transform: uppercase;
-            color: antiquewhite;
-            display: grid;
-            grid-template-columns: 1fr max-content 1fr;
-            grid-template-rows: 27px 0;
-            grid-gap: 20px;
-            align-items: center;
-        }
-        
-        .skills h1:after,.skills h1:before {
-            content: " ";
-            display: block;
-            border-bottom: 1px solid #c50000;
-            border-top: 1px solid #c50000;
-            height: 5px;
-          background-color:#f8f8f8;
-        }
-        
-        
 
+.about h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    color: #222;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-template-rows: 27px 0;
+    grid-gap: 20px;
+    align-items: center;
+    color: antiquewhite;
+}
+
+.bounce {
+    animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}
+
+.about h1:after, .about h1:before {
+    content: " ";
+    display: block;
+    border-bottom: 1px solid #c50000;
+    border-top: 1px solid #c50000;
+    height: 5px;
+    background-color: #f8f8f8;
+}
+
+.slide-in {
+    opacity: 0;
+    transform: translateX(-100%);
+    animation: slideIn 0.5s forwards;
+}
+
+@keyframes slideIn {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.projects h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    color: #222;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: antiquewhite;
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-template-rows: 27px 0;
+    grid-gap: 20px;
+    align-items: center;
+}
+
+.projects h1:after, .projects h1:before {
+    content: " ";
+    display: block;
+    border-bottom: 1px solid #c50000;
+    border-top: 1px solid #c50000;
+    height: 5px;
+    background-color: #f8f8f8;
+}
+
+.footer h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    color: #222;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-template-rows: 27px 0;
+    grid-gap: 20px;
+    align-items: center;
+    color: #f8f8f8;
+    color: antiquewhite;
+}
+
+.footer h1:after, .footer h1:before {
+    content: " ";
+    display: block;
+    border-bottom: 1px solid #c50000;
+    border-top: 1px solid #c50000;
+    height: 5px;
+    background-color: #f8f8f8;
+}
+
+.skills h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    color: #222;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: antiquewhite;
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-template-rows: 27px 0;
+    grid-gap: 20px;
+    align-items: center;
+}
+
+.skills h1:after, .skills h1:before {
+    content: " ";
+    display: block;
+    border-bottom: 1px solid #c50000;
+    border-top: 1px solid #c50000;
+    height: 5px;
+    background-color: #f8f8f8;
+}
 
 .hero-header h1 {
     font-size: 4rem;
@@ -164,6 +179,7 @@ html {
     color: #000;
     transform: translateY(-3px); /* Increased lift on hover */
 }
+
 .hero-header .icon-link:hover {
     background: #ffc107; /* Slightly lighter shade */
     color: #000;
@@ -176,18 +192,20 @@ html {
     gap: 15px;
     justify-content: center;
 }
+
 #about {
     padding: 50px 0; /* Add some padding for spacing */
 }
+
 .custom-btn {
     padding: 10px 20px;
     font-size: 0.9rem;
     font-weight: 600;
     color: #191e83;
     background-color: #A6FFCB;
-    border: 2px solid #ff5722; 
-    border-radius: 25px; 
-    transition: all 0.3s ease; 
+    border: 2px solid #ff5722;
+    border-radius: 25px;
+    transition: all 0.3s ease;
     text-transform: uppercase;
     text-decoration: none;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
@@ -210,16 +228,15 @@ html {
     margin-right: 10px;
 }
 
-
 .container {
     display: flex;
-    align-items: center; 
+    align-items: center;
     justify-content: center;
-    text-align: left; 
+    text-align: left;
 }
 
 .linkedin {
-    margin-right: 20px; 
+    margin-right: 20px;
     border-radius: 50%;
     height: 200px;
     width: auto;
@@ -232,13 +249,13 @@ html {
 }
 
 .about-box {
-    background-color: rgba(255, 255, 255, 0.9); 
+    background-color: rgba(255, 255, 255, 0.9);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 15px;
     display: flex;
     align-items: center;
-    max-width: 600px; 
-    text-align: center; 
+    max-width: 600px;
+    text-align: center;
 }
 
 .linkedin {
@@ -247,17 +264,18 @@ html {
 }
 
 .container p {
-    max-width: 600px; 
-    font-size: 1rem; 
-    color: #0e75db; 
+    max-width: 600px;
+    font-size: 1rem;
+    color: #0e75db;
     font-weight: 900;
 }
+
 .about-box {
-    transition: transform 0.3s ease; 
+    transition: transform 0.3s ease;
 }
 
 .about-box:hover {
-    transform: scale(1.05); 
+    transform: scale(1.05);
 }
 
 body {
@@ -281,16 +299,16 @@ body {
     }
 }
 
-
 #footer a {
-    color: #b4df16; 
-    text-decoration: none; 
+    color: #b4df16;
+    text-decoration: none;
 }
 
 #footer a:hover {
-    color: #ffcf40; 
-    text-decoration: underline; 
+    color: #ffcf40;
+    text-decoration: underline;
 }
+
 .card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
